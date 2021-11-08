@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Enviroment>
+    <!-- Timeout -->
+    <Timeout>5</Timeout>
+
+    <!-- General  api/web/mobile -->
+    <PlatformName>api</PlatformName>
+
+    <!-- Web Variable -->
+    <BrowserName>chrome</BrowserName>
+    <Url>http://parabank.parasoft.com/parabank/</Url>
+    <ImageRepo>C:\\Automation\\Projects\\FinalProject\\ImageRepository\\</ImageRepo>
+
+    <!-- Mobile Variable -->
+    <UDID>c963c4cc</UDID>
+    <AppPackege>com.shivgadhia.android.ukMortgageCalc</AppPackege>
+    <AppActivity>.MainActivity</AppActivity>
+    <AppiumServer>http://localhost:4722/wd/hub</AppiumServer>
+
+    <!-- RestAPI Variable -->
+    <UrlAPI>https://reqres.in/</UrlAPI>
+
+
+    <!-- Data Driven Test -->
+    <DDTFile>./DDTFiles/users.csv</DDTFile>
+    <DDTFile2>./DDTFiles/loan.csv</DDTFile2>
+
+    <!-- Texts -->
+    <LoginErrorMassage>The username and password could not be verified.</LoginErrorMassage>
+    <LoginTitle>Customer Login</LoginTitle>
+    <ServicesTitle>Account Services</ServicesTitle>
+    <RequestLoanError>An internal error has occurred and has been logged.</RequestLoanError>
+    <StatusDeniedError>You do not have sufficient funds for the given down payment.</StatusDeniedError>
+    <StatusApprove>Congratulations, your loan has been approved.</StatusApprove>
+</Enviroment>
